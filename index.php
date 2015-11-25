@@ -10,17 +10,17 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
-
-	 <div class="row">
-        <div class="col s12 m6 offset-m3">
+<body style="background: blanchedalmond;">
+<div class="container " style="margin-top:200px;">
+  <div class="row">
+        <div class="col s12 m8 offset-m2">
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
               <span class="card-title">HangMan</span>
               <br>
                 <?php 
 
-                	$tmp="play";
+                  $tmp="communication";
                   $word=array();
                   $chars = str_split($tmp);
 
@@ -49,7 +49,7 @@
               <div class="card-action">
                 <form method="POST" action="index.php">
                   <input type="text" name="name" >
-                  <input type="submit">
+                  <input class="waves-effect waves-light btn" type="submit">
                   <!--<a class="waves-effect waves-light btn" type="submit">Stuff</a>-->
                 </form>
               </div>
@@ -63,7 +63,9 @@
             </div>
           </div>
         </div>
-      </div>
+</div> 
+</div>
+
 
 
 
