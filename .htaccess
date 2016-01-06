@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|(.*)\.swf|forums|img|css|downloads|jquery|js|robots\.txt|assets|favicon\.ico)
+
+RewriteRule ^(.*)$ /hangman/index.php/$1 [L]
